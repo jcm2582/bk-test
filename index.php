@@ -21,3 +21,5 @@ try {
 } catch (HttpException $ex) {
   echo $ex;
 }
+
+?>
