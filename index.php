@@ -1,5 +1,6 @@
 ﻿<?php
-echo "hello";
+echo $response;
+include "curl.php";
 ?>
 
 <!DOCTYPE html>
