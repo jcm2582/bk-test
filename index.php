@@ -1,6 +1,9 @@
 ﻿<?php
 echo $response;
 include "curl.php";
+$obj = json_decode($json);
+print $obj->{'notifications'}; 
+
 ?>
 
 <!DOCTYPE html>
