@@ -21,6 +21,8 @@ curl_setopt_array($curl, array(
 ));
 
 $response = curl_exec($curl);
+$obj = json_decode($response);
+$notifications = $obj->{'notifications'}; 
 $err = curl_error($curl);
 
 curl_close($curl);
