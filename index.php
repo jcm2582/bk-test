@@ -1,5 +1,6 @@
 <?php
-
+echo = "hello"
+/*
 $request = new HttpRequest();
 $request->setUrl('https://freetrial1566893.beekeeper.io/api/2//status');
 $request->setMethod(HTTP_METH_GET);
@@ -22,4 +23,5 @@ try {
   echo $ex;
 }
 
+*/
 ?>
