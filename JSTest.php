@@ -29,6 +29,25 @@ $(document).ready(function(){
 	ajaxfn();
     });
 });
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://freetrial1566893.beekeeper.io/api/2/conversations/2758033",
+  "method": "GET",
+  "headers": {
+    "authorization": "Token 47e6a7a2-a0d0-468f-92c1-7f45f0f0bdff",
+    "accept": "application/json",
+    "content-type": "application/json",
+    "cache-control": "no-cache",
+    "postman-token": "ac64a152-df21-36bf-ebd1-1b43bdf53e2e"
+  },
+  "data": "echo 'hello world'"
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+
 
 function ajaxfn() {
 var data = "echo 'hello world'";
