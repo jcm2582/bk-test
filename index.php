@@ -1,8 +1,7 @@
 ﻿<?php
-echo $response;
+echo $notifications;
 include "curl.php";
-$obj = json_decode($json);
-print $obj->{'notifications'}; 
+
 
 ?>
 
