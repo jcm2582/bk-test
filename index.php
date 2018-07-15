@@ -1,6 +1,14 @@
 <?php
+<<<<<<< HEAD
 
 $curl = curl_init();
+=======
+echo = "hello"
+/*
+$request = new HttpRequest();
+$request->setUrl('https://freetrial1566893.beekeeper.io/api/2//status');
+$request->setMethod(HTTP_METH_GET);
+>>>>>>> dce481c40f189ce15cfcabcfd7f89247302b44c3
 
 curl_setopt_array($curl, array(
   CURLOPT_URL => "https://freetrial1566893.beekeeper.io/api/2//status",
@@ -30,4 +38,10 @@ if ($err) {
 } else {
   echo $response;
 }
+<<<<<<< HEAD
 ?>
+=======
+
+*/
+?>
+>>>>>>> dce481c40f189ce15cfcabcfd7f89247302b44c3
