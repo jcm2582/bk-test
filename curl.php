@@ -1,9 +1,9 @@
 <?php
-echo "hello";
+
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://freetrial1566893.beekeeper.io/api/2//status",
+  CURLOPT_URL => "https://freetrial1566893.beekeeper.io/api/2/status",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -16,20 +16,20 @@ curl_setopt_array($curl, array(
     "authorization: Token 47e6a7a2-a0d0-468f-92c1-7f45f0f0bdff",
     "cache-control: no-cache",
     "content-type: application/json",
-    "postman-token: b961ea01-446c-5a1d-eaed-13fe73384b92"
+    "postman-token: f51ac7ed-029b-794d-6e42-8835a082ff46"
   ),
 ));
 
 $response = curl_exec($curl);
-$obj = json_decode($response);
-$notifications = $obj->{'notifications'}; 
 $err = curl_error($curl);
+$json = $response;
+$obj = json_decode($json);
 
 curl_close($curl);
 
 if ($err) {
   echo "cURL Error #:" . $err;
 } else {
-  echo $response;
+  //echo $response;
 }
 ?>
