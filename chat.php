@@ -1,7 +1,7 @@
   <html>
   <head>
-  <script src="/js/chat.js"></script>
-  <link rel="stylesheet" href="/css/chat.css">
+  <script src="js/chat.js"></script>
+  <link rel="stylesheet" href="css/chat.css">
   </head>
   
   <div class="container clearfix">
