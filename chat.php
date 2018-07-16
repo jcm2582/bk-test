@@ -1,221 +1,320 @@
-  <html>
-  <head>
-  <script src="js/chat.js"></script>
-  <link rel="stylesheet" href="css/chat.css">
-  </head>
-  
-  <div class="container clearfix">
-    <div class="people-list" id="people-list">
-      <div class="search">
-        <input type="text" placeholder="search" />
-        <i class="fa fa-search"></i>
-      </div>
-      <ul class="list">
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_01.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Vincent Porter</div>
-            <div class="status">
-              <i class="fa fa-circle online"></i> online
-            </div>
-          </div>
-        </li>
-        
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_02.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Aiden Chavez</div>
-            <div class="status">
-              <i class="fa fa-circle offline"></i> left 7 mins ago
-            </div>
-          </div>
-        </li>
-        
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_03.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Mike Thomas</div>
-            <div class="status">
-              <i class="fa fa-circle online"></i> online
-            </div>
-          </div>
-        </li>
-        
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_04.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Erica Hughes</div>
-            <div class="status">
-              <i class="fa fa-circle online"></i> online
-            </div>
-          </div>
-        </li>
-        
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_05.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Ginger Johnston</div>
-            <div class="status">
-              <i class="fa fa-circle online"></i> online
-            </div>
-          </div>
-        </li>
-        
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_06.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Tracy Carpenter</div>
-            <div class="status">
-              <i class="fa fa-circle offline"></i> left 30 mins ago
-            </div>
-          </div>
-        </li>
-        
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_07.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Christian Kelly</div>
-            <div class="status">
-              <i class="fa fa-circle offline"></i> left 10 hours ago
-            </div>
-          </div>
-        </li>
-        
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_08.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Monica Ward</div>
-            <div class="status">
-              <i class="fa fa-circle online"></i> online
-            </div>
-          </div>
-        </li>
-        
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_09.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Dean Henry</div>
-            <div class="status">
-              <i class="fa fa-circle offline"></i> offline since Oct 28
-            </div>
-          </div>
-        </li>
-        
-        <li class="clearfix">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_10.jpg" alt="avatar" />
-          <div class="about">
-            <div class="name">Peyton Mckinney</div>
-            <div class="status">
-              <i class="fa fa-circle online"></i> online
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-    
-    <div class="chat">
-      <div class="chat-header clearfix">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_01_green.jpg" alt="avatar" />
-        
-        <div class="chat-about">
-          <div class="chat-with">Chat with Vincent Porter</div>
-          <div class="chat-num-messages">already 1 902 messages</div>
-        </div>
-        <i class="fa fa-star"></i>
-      </div> <!-- end chat-header -->
-      
-      <div class="chat-history">
-        <ul>
-          <li class="clearfix">
-            <div class="message-data align-right">
-              <span class="message-data-time" >10:10 AM, Today</span> &nbsp; &nbsp;
-              <span class="message-data-name" >Olia</span> <i class="fa fa-circle me"></i>
-              
-            </div>
-            <div class="message other-message float-right">
-              Hi Vincent, how are you? How is the project coming along?
-            </div>
-          </li>
-          
-          <li>
-            <div class="message-data">
-              <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
-              <span class="message-data-time">10:12 AM, Today</span>
-            </div>
-            <div class="message my-message">
-              Are we meeting today? Project has been already finished and I have results to show you.
-            </div>
-          </li>
-          
-          <li class="clearfix">
-            <div class="message-data align-right">
-              <span class="message-data-time" >10:14 AM, Today</span> &nbsp; &nbsp;
-              <span class="message-data-name" >Olia</span> <i class="fa fa-circle me"></i>
-              
-            </div>
-            <div class="message other-message float-right">
-              Well I am not sure. The rest of the team is not here yet. Maybe in an hour or so? Have you faced any problems at the last phase of the project?
-            </div>
-          </li>
-          
-          <li>
-            <div class="message-data">
-              <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
-              <span class="message-data-time">10:20 AM, Today</span>
-            </div>
-            <div class="message my-message">
-              Actually everything was fine. I'm very excited to show this to our team.
-            </div>
-          </li>
-          
-          <li>
-            <div class="message-data">
-              <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
-              <span class="message-data-time">10:31 AM, Today</span>
-            </div>
-            <i class="fa fa-circle online"></i>
-            <i class="fa fa-circle online" style="color: #AED2A6"></i>
-            <i class="fa fa-circle online" style="color:#DAE9DA"></i>
-          </li>
-          
-        </ul>
-        
-      </div> <!-- end chat-history -->
-      
-      <div class="chat-message clearfix">
-        <textarea name="message-to-send" id="message-to-send" placeholder ="Type your message" rows="3"></textarea>
-                
-        <i class="fa fa-file-o"></i> &nbsp;&nbsp;&nbsp;
-        <i class="fa fa-file-image-o"></i>
-        
-        <button>Send</button>
+Skip to content
+ 
+Search or jump to…
 
-      </div> <!-- end chat-message -->
-      
-    </div> <!-- end chat -->
-    
-  </div> <!-- end container -->
+Pull requests
+Issues
+Marketplace
+Explore
+ @jcm2582 Sign out
+0
+1 4 flyg101/simple-chat-ui
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+simple-chat-ui/index.html
+fd63dcf  on Jun 11, 2017
+@kennyose kennyose fix ui
+@kennyose @flyg101
+     
+290 lines (251 sloc)  11.3 KB
+<!DOCTYPE html>
+<html lang="en">
 
-<script id="message-template" type="text/x-handlebars-template">
-  <li class="clearfix">
-    <div class="message-data align-right">
-      <span class="message-data-time" >{{time}}, Today</span> &nbsp; &nbsp;
-      <span class="message-data-name" >Olia</span> <i class="fa fa-circle me"></i>
-    </div>
-    <div class="message other-message float-right">
-      {{messageOutput}}
-    </div>
-  </li>
-</script>
+<head>
+	<title>Simple-Chat-UI</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/chat.css" rel="stylesheet">
+</head>
 
-<script id="message-response-template" type="text/x-handlebars-template">
-  <li>
-    <div class="message-data">
-      <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
-      <span class="message-data-time">{{time}}, Today</span>
-    </div>
-    <div class="message my-message">
-      {{response}}
-    </div>
-  </li>
-</script>
+<body>
+
+	<div class="main_section">
+		<div class="container">
+			<div class="chat_container">
+				<div class="col-sm-3 hidden-xs chat_sidebar">
+					<div class="row" style="text-align: center">
+						Ads.. 
+					</div>
+				</div>
+				<!--Ads_sidebar-->
+
+
+				<div class="col-sm-6 message_section">
+					<div class="row" style="background-image:url(http://cdn.css-tricks.com/images/forums-bg.png)">
+						<div class="new_message_head">
+							<div class="pull-left">
+								<div class="dropdown">
+									<button class="dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-weixin" aria-hidden="true"></i> Conversations <span class="caret"></span></button>
+									<ul class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenu3">
+										<li>
+											<div id="custom-search-input">
+												<div class="input-group col-md-12">
+													<input type="text" class="  search-query form-control" placeholder="Conversation" />
+													<button class="btn btn-danger" type="button">
+														<span class=" glyphicon glyphicon-search"></span>
+													</button>
+												</div>
+											</div>
+										</li>
+
+										<li role="separator" class="divider"></li>
+
+										<li class="left clearfix conversations">
+											<div class="chat-body clearfix">
+												<div class="header_sec">
+													<strong class="primary-font">Yo McMoney</strong>
+												</div>
+												<div class="contact_sec">
+													<span class="badge pull-right">3</span>
+												</div>
+											</div>
+										</li>
+										<li class="left clearfix conversations">
+											<div class="chat-body clearfix">
+												<div class="header_sec">
+													<strong class="primary-font">Yo McMoney</strong>
+												</div>
+												<div class="contact_sec">
+													<span class="badge pull-right">3</span>
+												</div>
+											</div>
+										</li>
+										<li class="left clearfix conversations">
+											<div class="chat-body clearfix">
+												<div class="header_sec">
+													<strong class="primary-font">Yo McMoney</strong>
+												</div>
+												<div class="contact_sec">
+													<span class="badge pull-right">3</span>
+												</div>
+											</div>
+										</li>
+										<li class="left clearfix conversations">
+											<div class="chat-body clearfix">
+												<div class="header_sec">
+													<strong class="primary-font">Yo McMoney</strong>
+												</div>
+												<div class="contact_sec">
+													<span class="badge pull-right">3</span>
+												</div>
+											</div>
+										</li>
+										<li class="left clearfix conversations">
+											<div class="chat-body clearfix">
+												<div class="header_sec">
+													<strong class="primary-font">Yo McMoney</strong>
+												</div>
+												<div class="contact_sec">
+													<span class="badge pull-right">3</span>
+												</div>
+											</div>
+										</li>
+										<li class="left clearfix conversations">
+											<div class="chat-body clearfix">
+												<div class="header_sec">
+													<strong class="primary-font">Yo McMoney</strong>
+												</div>
+												<div class="contact_sec">
+													<span class="badge pull-right">3</span>
+												</div>
+											</div>
+										</li>
+										<li class="left clearfix conversations">
+											<div class="chat-body clearfix">
+												<div class="header_sec">
+													<strong class="primary-font">Yo McMoney</strong>
+												</div>
+												<div class="contact_sec">
+													<span class="badge pull-right">3</span>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="pull-right">
+								<div class="dropdown">
+									<button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs" aria-hidden="true"></i>  Setting <span class="caret"></span></button>
+									<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+										<li><a href="#">Action</a></li>
+										<li><a href="#">Profile</a></li>
+										<li><a href="#">Logout</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--new_message_head-->
+
+						<div class="chat_area">
+							<ul class="list-unstyled">
+								<li class="left clearfix partner_chat">
+									<span class="chat-img1 pull-left">
+                     <img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
+                  </span>
+										 
+									<div class="chat-body1 clearfix">
+										<p>
+											<span style="color:rgb(107,203,239); display:block">Yo McMoney</span>
+
+											<span style="display:block; padding:5px 0px 5px 0px;">
+												Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+												from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+												Virginia.
+											</span>
+
+											<span style="font-size:0.85em; color:grey; display:block; float:right;">09:40PM</span>
+										</p>
+									</div>
+								</li>
+
+								<li class="left clearfix partner_chat">
+									<span class="chat-img1 pull-left">
+                  	<img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
+                  </span>
+
+									<div class="chat-body1 clearfix">
+
+										<p>
+											<span style="display:block; padding:5px 0px 5px 0px;">
+												Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+												from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+												Virginia.
+											</span>	
+
+											<span style="font-size:0.85em; color:grey; display:block; float:right;">09:40PM</span>
+										</p>
+										
+									</div>
+								</li>
+
+								<li class="left clearfix partner_chat">
+									<span class="chat-img1 pull-left">
+                     <img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
+                  </span>
+										 
+									<div class="chat-body1 clearfix">
+										<div class="image_chat">
+											<span style="color:rgb(107,203,239); display:block">Yo McMoney</span>
+
+											<div class="image_thumb"	style="padding:5px 0px 5px 0px;">
+												<img src="./image1.jpg" class="img-responsive" alt="image1">
+											</div>
+
+											<span style="font-size:0.85em; color:grey; display:block; float:right;">09:40PM</span>
+										</div>
+									</div>
+								</li>
+
+								<li class="left clearfix admin_chat">
+									<span class="chat-img1 pull-right">
+                     <img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
+                  </span>
+										 
+									<div class="chat-body1 clearfix">
+										<div class="image_chat">
+											<span style="color:rgb(107,203,239); display:block; text-align:right">Yo McMoney</span>
+
+											<div class="image_thumb"	style="padding:5px 0px 5px 0px; display:block;" >
+												<img src="./image1.jpg" class="img-responsive" alt="image1">
+											</div>
+
+											<span style="font-size:0.85em; color:grey; display:block; float:right;">09:40PM</span>
+										</div>
+									</div>
+								</li>
+
+								<li class="left clearfix partner_chat">
+									<span class="chat-img1 pull-left">
+                    <img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
+                  </span>
+
+									<div class="chat-body1 clearfix">
+										<p>
+											<span style="display:block; padding:5px 0px 5px 0px;">Contrary to popular belief</span>
+
+											<span style="font-size:0.85em; color:grey; display:block; float:right;">09:40PM</span>
+										</p>
+									</div>
+								</li>
+
+								<li class="left clearfix admin_chat">
+									<span class="chat-img1 pull-right">
+                    <img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
+                  </span>
+
+									<div class="chat-body1 clearfix">
+										<p>
+											<span style="display:block; padding: 5px 0px 5px 0px;">
+												Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+												from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+												Virginia.
+											</span>	
+
+											<span style="font-size:0.85em; color:grey; display:block; float:right;">09:40PM</span>
+										</p>
+									</div>
+								</li>
+
+								<li class="left clearfix admin_chat">
+									<span class="chat-img1 pull-right">
+                    <img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
+                  </span>
+
+									<div class="chat-body1 clearfix">
+										<p>
+											<span style="display:block; padding:5px 0px 5px 0px;">Contrary to popular belief.</span>
+
+											<span style="font-size:0.85em; color:grey; display:block; float:right;">09:40PM</span>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!--chat_area-->
+
+						<div class="message_write">
+							<textarea class="form-control" placeholder="type a message"></textarea>
+							<div class="chat_bottom"><a href="#" class="pull-left upload_btn"><i class="fa fa-paperclip fa-2x" aria-hidden="true"></i> Add Files</a>
+								<a href="#" class="pull-right btn btn-success">Send</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--message_section-->
+
+				<div class="col-sm-3 hidden-xs chat_sidebar">
+					<div class="row" style="text-align: center">
+						Ads..
+					</div>
+				</div>
+				<!--Ads_sidebar-->
+			</div>
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.autosize/3.0.20/autosize.min.js"></script>
+
+	<script>
+		autosize(document.querySelector('textarea'));
+	</script>
+</body>
+
+</html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
