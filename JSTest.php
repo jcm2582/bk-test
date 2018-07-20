@@ -27,6 +27,9 @@ $(document).ready(function(){
     $("button").click(function(){
     $("#panel").slideToggle();
 	ajaxfn();
+	.ajax(settings).done(function (response) {
+  console.log(response);
+});
     });
 });
 var settings = {
@@ -44,9 +47,7 @@ var settings = {
   "data": "echo 'hello world'"
 }
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
+$
 
 
 function ajaxfn() {

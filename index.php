@@ -1,8 +1,6 @@
 ﻿<?php
 include "curl.php";
-
 // $message_count = $obj->{'unread_messages'};
-
 ?>
 
 
@@ -47,7 +45,7 @@ include "curl.php";
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <div class="container">
-	
+
   <nav class="navbar navbar-default nav-menu">
     <div class="navbar-header">
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".button-menu">
@@ -58,7 +56,7 @@ include "curl.php";
 		</button>
 		<a class="navbar-brand" href="#">Home Page</a>
 	</div>
-	
+
 	<div class="collapse navbar-collapse button-menu">
 		<ul class="nav navbar-nav ">
             <li><a href="#"><i class="fa fa-home"></i> HOME</a></li>
@@ -66,7 +64,7 @@ include "curl.php";
             <li><a href="#">USERS</a></li>
             <li><a href="#">OFFICES</a></li>
 		</ul>
-        
+
         <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -109,7 +107,7 @@ include "curl.php";
                     </ul>
                 </li>
             </ul>
-             
+
 	</div>
 
   </nav>
@@ -119,6 +117,7 @@ include "curl.php";
 </head>
 <body>
 <!-- Header -->
+
 <header id="header">
   <div class="intro">
     <div class="overlay">
@@ -141,320 +140,47 @@ include "curl.php";
     <div class="section-title">
       <h2>Portfolio</h2>
     </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".lorem">Lorem Ipsum</a></li>
-            <li><a href="#" data-filter=".dolor">Dolor Sit</a></li>
-            <li><a href="#" data-filter=".adipiscing">Adipiscing Elit</a></li>
-          </ol>
-        </li>
-      </ul>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-4 lorem">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 adipiscing">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 lorem">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 lorem">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 adipiscing">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 dolor">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 dolor">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 lorem">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 adipiscing">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 adipiscing">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 adipiscing">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 lorem">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 adipiscing">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/13-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/13-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 dolor">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/14-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/14-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 dolor">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/15-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/15-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 lorem">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/16-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/16-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 adipiscing">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/17-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/17-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 lorem">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/18-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <div class="overlay-caption">
-                  <div class="overlay-content">
-                    <h4>Project Name</h4>
-                  </div>
-                </div>
-              </div>
-              <img src="img/portfolio/18-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Contact Section -->
-<div id="contact">
-  <div class="container">
-    <h2>About Me</h2>
-    <div class="col-md-6">
-      <div class="section-title">
-        <div class="row"> <img src="img/about.jpg" class="img-responsive pull-left" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <div class="social">
-            <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-5 col-md-offset-1">
-      <div class="section-title">
-        <p>For inquiries or collaborations please contact me by email at <strong>info@company.com</strong> or fill out the form below.</p>
-      </div>
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-default btn-lg">Send Message</button>
-      </form>
-    </div>
-  </div>
-</div>
-<div id="footer">
-  <div class="container">
-    <p>&copy; 2016 Jonathan Doe. All rights reserved.</p>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
+
+
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/nivo-lightbox.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+function processFile() {
+ var fileSize = 0;
+ var theFile = document.getElementById("myFile").files[0];
+ if (theFile) {
+ var table = document.getElementById("myTable");
+ var headerLine = "";
+ var myReader = new FileReader();
+ myReader.onload = function(e) {
+ var content = myReader.result;
+ var lines = content.split("\r");
+ for (var count = 0; count < lines.length; count++) {
+ var row = document.createElement("tr");
+ var rowContent = lines[count].split(",");
+ for (var i = 0; i < rowContent.length; i++) {
+ if (count == 0) {
+ var cellElement = document.createElement("th");
+ } else {
+ var cellElement = document.createElement("td");
+ }
+ var cellContent = document.createTextNode(rowContent[i]);
+ cellElement.appendChild(cellContent);
+ row.appendChild(cellElement);
+ }
+ myTable.appendChild(row);
+ }
+ }
+ myReader.readAsText(theFile);
+ }
+ return false;
+}
+</script>
 </body>
 </html>

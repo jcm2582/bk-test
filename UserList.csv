@@ -1,0 +1,10 @@
+id,username,email,mobile,language,firstname,lastname,position,suspended,Suspend
+,bot_testBotAccount,,,en,testBotAccount,,Twitter integration test,FALSE,
+,charlotte_milinovich,,,,Charlotte,Milinovich,,FALSE,
+,customersuccess,customersuccess@beekeeper.io,,en,,,,FALSE,
+,joel_mora,,,en,Joel,Mora,,FALSE,
+,JoelMora,,,,,,,FALSE,
+,kira_leahey,,,,Kira,Leahey,,FALSE,
+,mark_presto,,,,Mark,Presto,,FALSE,
+,matt_tverberg,,,en,Matt,Tverberg,,FALSE,
+,merada_richter,,,en,Merada,Richter,,FALSE,

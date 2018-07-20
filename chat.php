@@ -1,6 +1,6 @@
 Skip to content
- 
-Search or jump to…
+
+Search or jump toï¿½
 
 Pull requests
 Issues
@@ -14,7 +14,7 @@ simple-chat-ui/index.html
 fd63dcf  on Jun 11, 2017
 @kennyose kennyose fix ui
 @kennyose @flyg101
-     
+
 290 lines (251 sloc)  11.3 KB
 <!DOCTYPE html>
 <html lang="en">
@@ -35,7 +35,7 @@ fd63dcf  on Jun 11, 2017
 			<div class="chat_container">
 				<div class="col-sm-3 hidden-xs chat_sidebar">
 					<div class="row" style="text-align: center">
-						Ads.. 
+						Ads..
 					</div>
 				</div>
 				<!--Ads_sidebar-->
@@ -134,7 +134,7 @@ fd63dcf  on Jun 11, 2017
 									</ul>
 								</div>
 							</div>
-							
+
 							<div class="pull-right">
 								<div class="dropdown">
 									<button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs" aria-hidden="true"></i>  Setting <span class="caret"></span></button>
@@ -154,7 +154,7 @@ fd63dcf  on Jun 11, 2017
 									<span class="chat-img1 pull-left">
                      <img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
                   </span>
-										 
+
 									<div class="chat-body1 clearfix">
 										<p>
 											<span style="color:rgb(107,203,239); display:block">Yo McMoney</span>
@@ -182,11 +182,11 @@ fd63dcf  on Jun 11, 2017
 												Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
 												from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
 												Virginia.
-											</span>	
+											</span>
 
 											<span style="font-size:0.85em; color:grey; display:block; float:right;">09:40PM</span>
 										</p>
-										
+
 									</div>
 								</li>
 
@@ -194,7 +194,7 @@ fd63dcf  on Jun 11, 2017
 									<span class="chat-img1 pull-left">
                      <img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
                   </span>
-										 
+
 									<div class="chat-body1 clearfix">
 										<div class="image_chat">
 											<span style="color:rgb(107,203,239); display:block">Yo McMoney</span>
@@ -212,7 +212,7 @@ fd63dcf  on Jun 11, 2017
 									<span class="chat-img1 pull-right">
                      <img src="https://lh3.googleusercontent.com/-SEkCoiLsxMk/AAAAAAAAAAI/AAAAAAAAAAA/AAyYBF4DUk-ifOFiwhGXBoOheEF7P0ZW1g/s32-c-mo/photo.jpg" alt="User Avatar" class="img-circle">
                   </span>
-										 
+
 									<div class="chat-body1 clearfix">
 										<div class="image_chat">
 											<span style="color:rgb(107,203,239); display:block; text-align:right">Yo McMoney</span>
@@ -251,7 +251,7 @@ fd63dcf  on Jun 11, 2017
 												Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
 												from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
 												Virginia.
-											</span>	
+											</span>
 
 											<span style="font-size:0.85em; color:grey; display:block; float:right;">09:40PM</span>
 										</p>
@@ -305,7 +305,7 @@ fd63dcf  on Jun 11, 2017
 </body>
 
 </html>
-© 2018 GitHub, Inc.
+ï¿½ 2018 GitHub, Inc.
 Terms
 Privacy
 Security
